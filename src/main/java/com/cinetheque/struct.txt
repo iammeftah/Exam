@@ -1,0 +1,25 @@
+src/main/java/com/cinetheque/
+├── entity/                 // Entités JPA
+│   ├── CD.java
+│   └── Emprunt.java
+├── service/               // Services EJB
+│   ├── UserService.java
+│   └── AdminService.java
+├── bean/                  // Managed Beans JSF
+│   ├── CatalogueBean.java
+│   └── EmpruntBean.java
+└── util/                  // Utilitaires
+    └── JPAUtil.java
+
+src/main/webapp/
+├── pages/                 // Pages JSF
+│   ├── catalogue.xhtml
+│   ├── emprunts.xhtml
+│   └── admin.xhtml
+├── resources/             // Ressources statiques
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+└── WEB-INF/
+    ├── web.xml
+    └── faces-config.xml
